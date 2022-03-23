@@ -1,10 +1,16 @@
 import React from 'react'
 
-import { ExampleComponent } from 'page-http-code'
+import { HttpCodePage } from 'page-http-code'
 import 'page-http-code/dist/index.css'
 
+
+
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+
+    var text = ''
+    var typePage = 404
+    var img = ''
+  return <HttpCodePage text={text} image={img} typePage={typePage} />
 }
 
 export default App

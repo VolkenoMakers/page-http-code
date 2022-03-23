@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import { HttpCodePage } from '.'
 
-describe('ExampleComponent', () => {
+describe('HttpCodePage', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
+    expect(HttpCodePage).toBeTruthy()
   })
 })

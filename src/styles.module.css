@@ -1,4 +1,6 @@
 /* add css module styles here (optional) */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Manrope:wght@200;300;400;500;600;700;800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .test {
   margin: 2em;
@@ -6,4 +8,150 @@
   border: 2px solid #000;
   font-size: 2em;
   text-align: center;
+}
+.containerPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+    background: #D9EBFF;
+}
+.imgPrincipal {
+    position: absolute;
+    right: 3%;
+    top: 15%;
+}
+.ellipseOne {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.ellipseTwo {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.text-center {
+    text-align: center;
+}
+.bloc-container {
+    width: 40%;
+}
+.textCodeErreur {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 122%;
+    color: #009688;
+}
+
+.containerText {
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 15%;
+}
+.imgPrincipalQuantreCentQuatre {
+    position: absolute;
+    left: 0;
+    bottom: 23%;
+}
+.containerTextQuantreCentQuatre {
+    float: right;
+    width: 50%;
+    margin-top: 20%;
+    padding-right: 4%;
+}
+.polygonOne {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.polygonTwo {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.textCodeErreurQuantreCentQuatre {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 122%;
+    text-align: right;
+    color: #009688;
+}
+.btnAccueil {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    text-align: right;
+    padding: .5rem;
+    color: #FFFFFF;
+    background: #009688;
+    border-radius: 20px;
+    float: right;
+    border-color: #009688;
+    border: #009688;
+}
+.cercleOne {
+    position: absolute;
+    top: 18%;
+    left: 18%;
+}
+.cercleTwo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.imgPrincipalQuantreCentTrois {
+    position: absolute;
+    right: 0;
+    bottom: 8%;
+}
+.containerTextQuantreCentTrois {
+    width: 40%;
+    margin-left: -17%;
+    margin-top: 46%;
+}
+.textCodeErreurQuantreCentTrois {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 122%;
+    text-align: right;
+    color: #009688;
+}
+.subtractOne {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.subtractTwo {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.imgPrincipalCinqCent {
+    position: absolute;
+    right: 100px;
+    top: 8%;
+}
+.containerTextCinqCent {
+    width: 50%;
+    margin-top: 25%;
+    margin-left: 2%;
+}
+.textCodeErreurCinqCent {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 122%;
+    color: #009688;
+
 }
