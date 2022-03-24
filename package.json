@@ -4,7 +4,7 @@
   "description": "Page hhtp code",
   "author": "adama199",
   "license": "MIT",
-  "repository": "adama199/page-http-code",
+  "repository": "adama199/VolkenoMakers/page-http-code",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
