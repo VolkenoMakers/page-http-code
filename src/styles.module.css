@@ -155,3 +155,327 @@
     color: #009688;
 
 }
+@media(max-width:575px) {
+    .cercleTwo {
+        width: 80% !important;
+    }
+    .imgPrincipalQuantreCentTrois {
+        width: 60% !important;
+    }
+    .cercleOne {
+        top: 3% !important;
+        left: 18% !important;
+        width: 45% !important;
+    }
+    .containerTextQuantreCentTrois {
+        width: 50% !important;
+        margin-left: 22% !important;
+        margin-top: 71% !important;
+    }
+    .textCodeErreurQuantreCentTrois {
+        font-size: 22px !important;
+    }
+    .ellipseOne {
+        width: 60% !important;
+    }
+    .imgPrincipal {
+        width: 50% !important;
+        top: 3% !important;
+    }
+    .textCodeErreur {
+        font-size: 20px !important;
+    }
+    .containerText {
+        width: 70% !important;
+        margin-left: 13% !important;
+        margin-top: 67% !important;
+    }
+    .ellipseTwo {
+        width: 70% !important;
+    }
+    .imgPrincipalQuantreCentQuatre {
+        width: 71% !important;
+        left: 3% !important;
+        bottom: 36% !important;
+    }
+    .polygonOne {
+        width: 80% !important;
+        height: 100%;
+    }
+    .polygonTwo {
+        width: 50%;
+    }
+    .containerTextQuantreCentQuatre {
+        margin-top: 25% !important;
+    }
+    .textCodeErreurQuantreCentQuatre {
+        font-size: 18px !important;
+    }
+    .btnAccueil {
+        font-size: 18px !important;
+        line-height: 20px !important;
+    }
+    .imgPrincipalCinqCent {
+        width: 33% !important;
+        right: 31px !important;
+        top: 5% !important;
+    }
+    .subtractOne {
+        width: 50% !important;
+    }
+    .subtractTwo {
+        width: 15% !important;
+    }
+    .containerTextCinqCent {
+        width: 66% !important;
+        margin-top: 50% !important;
+    }
+    .textCodeErreurCinqCent {
+        font-size: 22px !important;
+    }
+}
+@media (max-width: 767px) and (min-width: 576px) {
+    .cercleTwo {
+        width: 50% !important;
+    }
+    .imgPrincipalQuantreCentTrois {
+        width: 40% !important;
+    }
+    .containerTextQuantreCentTrois {
+        width: 45% !important;
+        margin-left: 4% !important;
+        margin-top: 100% !important;
+    }
+    .textCodeErreurQuantreCentTrois {
+        font-size: 30px !important;
+    }
+    .ellipseOne {
+        width: 50% !important;
+    }
+    .imgPrincipal {
+        width: 40% !important;
+        top: 5% !important;
+    }
+    .textCodeErreur {
+        font-size: 22px !important;
+    }
+     .imgPrincipalQuantreCentQuatre {
+        width: 57% !important;
+        bottom: 31% !important;
+    }
+    .polygonOne {
+        width: 70% !important;
+        height: 100%;
+    }
+    .containerTextQuantreCentQuatre {
+        width: 65% !important;
+        margin-top: 50% !important;
+        padding-right: 0% !important;
+    }
+    .textCodeErreurQuantreCentQuatre {
+        font-size: 24px !important;
+    }
+    .btnAccueil {
+        font-size: 20px !important;
+        line-height: 29px !important;
+    }
+    .imgPrincipalCinqCent {
+        width: 30% !important;
+        right: 62px !important;
+        top: 7% !important;
+    }
+    .subtractOne {
+        width: 50% !important;
+    }
+    .subtractTwo {
+        width: 15% !important;
+    }
+    .containerTextCinqCent {
+        width: 40% !important;
+    }
+    .textCodeErreurCinqCent {
+        font-size: 22px !important;
+    }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+    .cercleTwo {
+        width: 50% !important;
+    }
+    .imgPrincipalQuantreCentTrois {
+        width: 40% !important;
+    }
+    .cercleOne {
+        top: 8% !important;
+        left: 14% !important;
+    }
+    .containerTextQuantreCentTrois {
+        width: 45% !important;
+        margin-left: -11% !important;
+        margin-top: 68% !important;
+    }
+    .textCodeErreurQuantreCentTrois {
+        font-size: 30px !important;
+    }
+    .ellipseOne {
+        width: 50% !important;
+    }
+    .imgPrincipal {
+        width: 40% !important;
+        top: 6% !important;
+    }
+    .textCodeErreur {
+        font-size: 30px !important;
+    }
+    .imgPrincipalQuantreCentQuatre {
+        width: 57% !important;
+        bottom: 31% !important;
+    }
+    .polygonOne {
+        width: 70% !important;
+        height: 100%;
+    }
+    .containerTextQuantreCentQuatre {
+        width: 65% !important;
+        margin-top: 50% !important;
+        padding-right: 0% !important;
+    }
+    .textCodeErreurQuantreCentQuatre {
+        font-size: 24px !important;
+    }
+    .btnAccueil {
+        font-size: 20px !important;
+        line-height: 29px !important;
+    }
+    .imgPrincipalCinqCent {
+        width: 30% !important;
+        right: 82px !important;
+        top: 10% !important;
+    }
+    .subtractOne {
+        width: 50% !important;
+    }
+    .subtractTwo {
+        width: 15% !important;
+    }
+    .containerTextCinqCent {
+        width: 40% !important;
+    }
+    .textCodeErreurCinqCent {
+        font-size: 24px !important;
+    }
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+    .cercleTwo {
+        width: 45% !important;
+    }
+    .imgPrincipalQuantreCentTrois {
+        width: 35% !important;
+    }
+    .containerTextQuantreCentTrois {
+        width: 40% !important;
+        margin-left: 1% !important;
+        margin-top: 71% !important;
+    }
+    .textCodeErreurQuantreCentTrois {
+        font-size: 40px !important;
+    }
+    .textCodeErreur {
+        font-size: 34px !important;
+    }
+    .containerText {
+        margin-top: 15% !important;
+    }
+    .ellipseOne {
+        width: 50% !important;
+    }
+    .imgPrincipal {
+        width: 40% !important;
+        top: 8% !important;
+    }
+    .imgPrincipalQuantreCentQuatre {
+        width: 50% !important;
+        bottom: 34% !important;
+    }
+    .polygonOne {
+        width: 60% !important;
+    }
+    .containerTextQuantreCentQuatre {
+        width: 40% !important;
+        margin-top: 32% !important;
+        padding-right: 0% !important;
+    }
+    .textCodeErreurQuantreCentQuatre {
+        font-size: 35px !important;
+    }
+    .imgPrincipalCinqCent {
+        width: 30% !important;
+        right: 106px !important;
+        top: 12% !important;
+    }
+    .subtractOne {
+        width: 50% !important;
+    }
+    .subtractTwo {
+        width: 15% !important;
+    }
+    .containerTextCinqCent {
+        width: 40% !important;
+        margin-top: 25% !important;
+    }
+    .textCodeErreurCinqCent {
+        font-size: 26px !important;
+    }
+}
+@media (max-width: 1600px) and (min-width: 1200px) {
+    .cercleTwo {
+        width: 50% !important;
+    }
+    .imgPrincipalQuantreCentTrois {
+        width: 40% !important;
+    }
+    .containerTextQuantreCentTrois {
+        width: 40% !important;
+        margin-left: -4% !important;
+        margin-top: 46% !important;
+    }
+    .ellipseOne {
+        width: 50% !important;
+    }
+    .imgPrincipal {
+        width: 40%;
+    }
+    .textCodeErreur {
+        font-size: 45px !important;
+    }
+    .polygonOne {
+        width: 60% !important;
+    }
+    .imgPrincipalQuantreCentQuatre {
+        width: 50% !important;
+        bottom: 25% !important;
+    }
+    .textCodeErreurQuantreCentQuatre {
+        font-size: 54px !important;
+    }
+    .containerTextQuantreCentQuatre {
+        width: 40% !important;
+    }
+    .imgPrincipalCinqCent {
+        width: 40% !important;
+        right: 132px !important;
+        top: 14% !important;
+    }
+    .subtractOne {
+        width: 60% !important;
+    }
+    .subtractTwo {
+        width: 15% !important;
+    }
+    .containerTextCinqCent {
+        width: 35% !important;
+        margin-top: 20% !important;
+    }
+    .textCodeErreurCinqCent {
+        font-size: 30px !important;
+    }
+}
