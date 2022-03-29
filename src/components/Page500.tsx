@@ -1,7 +1,7 @@
 import React from 'react'
 import PageErreur from '500.png'
-import Subtract1 from 'subtract1.png'
-import Subtract2 from 'subtract2.png'
+import Subtract1 from 'subtract2.png'
+import Subtract2 from 'subtract1.png'
 import styles from '../../src/styles.module.css'
 // $(function() {
 //     $('a[href*=#]').on('click', function(e) {

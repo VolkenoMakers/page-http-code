@@ -7,7 +7,7 @@ import 'page-http-code/dist/index.css'
 
 const App = () => {
     var text = ''
-    var typePage = 403
+    var typePage = 500
     var img = ''
   return <HttpCodePage text={text} image={img} typePage={typePage} />
 }
