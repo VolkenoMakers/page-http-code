@@ -1,8 +1,8 @@
 import React from 'react'
 import PageErreur from '404.png'
 
-import Polygon1 from 'polygon1.png'
-import Polygon2 from 'polygon2.png'
+import ImageDecorationPolygonPrimaire from 'polygon1.png'
+import ImageDecorationPolygonSecondaire from 'polygon2.png'
 import styles from '../../src/styles.module.css'
 // $(function() {
 //     $('a[href*=#]').on('click', function(e) {
@@ -16,17 +16,25 @@ type Props = {
 }
 
 const Page404 = ({ text, image }: Props) => {
-  text = 'L’URL demandé n’a pas été trouvé  sur ce serveur'
+  text = 'The requested URL was not found on this server.'
   image = PageErreur
   return (
     <div>
       <div>
-        <img src={Polygon1} alt='Polygon1' className={styles.polygonOne} />
+        <img
+          src={ImageDecorationPolygonPrimaire}
+          alt='ImageDecorationPolygonPrimaire'
+          className={styles.imageDecorationpolygonPrimaire}
+        />
       </div>
       <div className='container-page'>
         <div className='bloc-container'>
           <div>
-            <img src={Polygon2} alt='Polygon2' className={styles.polygonTwo} />
+            <img
+              src={ImageDecorationPolygonSecondaire}
+              alt='ImageDecorationPolygonSecondaire'
+              className={styles.imageDecorationpolygonSecondaire}
+            />
           </div>
           <div className='text-center'>
             <img
@@ -38,7 +46,7 @@ const Page404 = ({ text, image }: Props) => {
           <div className={styles.containerTextQuantreCentQuatre}>
             <p className={styles.textCodeErreurQuantreCentQuatre}> {text}</p>
             <button className={styles.btnAccueil} type='button'>
-              Accueil
+              Home
             </button>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import PageErreur from '500.png'
-import Subtract1 from 'subtract2.png'
-import Subtract2 from 'subtract1.png'
+import ImageDecorationSubtractSecondaire from 'subtract2.png'
+import ImageDecorationSubtractPrimaire from 'subtract1.png'
 import styles from '../../src/styles.module.css'
 // $(function() {
 //     $('a[href*=#]').on('click', function(e) {
@@ -17,20 +17,24 @@ type Props = {
 
 const Page500 = ({ text, image }: Props) => {
   text =
-    'Le serveur a rencontré une erreur interne ou une mauvaise configuration et n’a pas pu répondre à votre demande '
+    'The server encountered an internal error or misconfiguration and could not complete your request.'
   image = PageErreur
   return (
     <div>
       <div>
-        <img src={Subtract1} alt='Subtract1' className={styles.subtractTwo} />
+        <img
+          src={ImageDecorationSubtractSecondaire}
+          alt='ImageDecorationSubtractSecondaire'
+          className={styles.imageDecorationSubtractSecondaire}
+        />
       </div>
       <div className='container-page'>
         <div className='bloc-container'>
           <div>
             <img
-              src={Subtract2}
-              alt='Subtract2'
-              className={styles.subtractOne}
+              src={ImageDecorationSubtractPrimaire}
+              alt='ImageDecorationSubtractPrimaire'
+              className={styles.imageDecorationSubtractPrimaire}
             />
           </div>
           <div className='text-center'>
