@@ -1,7 +1,7 @@
 import React from 'react'
 import PageErreur from '403.png'
-import Cercle1 from 'cercle1.png'
-import Cercle2 from 'cercle2.png'
+import ImageDecorationCercleSecondaire from 'cercle1.png'
+import ImageDecorationCerclePrimaire from 'cercle2.png'
 import styles from '../../src/styles.module.css'
 // $(function() {
 //     $('a[href*=#]').on('click', function(e) {
@@ -16,17 +16,26 @@ type Props = {
 }
 
 const Page403 = ({ text, image }: Props) => {
-  text = 'Désolé vous n’avez pas d’accés!'
+  text =
+    'Sorry, you do not have the appropriate permission to access the requested content.'
   image = PageErreur
   return (
     <div>
       <div>
-        <img src={Cercle1} alt='Cercle1' className={styles.cercleTwo} />
+        <img
+          src={ImageDecorationCercleSecondaire}
+          alt='ImageDecorationCercleSecondaire'
+          className={styles.imageDecorationCercleSecondaire}
+        />
       </div>
       <div className='container-page'>
         <div className='bloc-container'>
           <div>
-            <img src={Cercle2} alt='Cercle2' className={styles.cercleOne} />
+            <img
+              src={ImageDecorationCerclePrimaire}
+              alt='ImageDecorationCerclePrimaire'
+              className={styles.imageDecorationCerclePrimaire}
+            />
           </div>
           <div className='text-center'>
             <img

@@ -1,8 +1,8 @@
 import React from 'react'
 import './Page.css'
 import PageErreur from '401.png'
-import Ellipse1 from 'ellipse1.png'
-import Ellipse2 from 'ellipse2.png'
+import ImageDecorationEllipsePrimaire from 'ellipse1.png'
+import ImageDecorationEllipseSecondaire from 'ellipse2.png'
 import styles from '../../src/styles.module.css'
 
 // $(function() {
@@ -17,18 +17,25 @@ type Props = {
   image?: string
 }
 const Page401 = ({ text, image }: Props) => {
-  text =
-    'Autorisation obligatoire. Veuillez actualiser cette page et le fichier avec les informations de connexion correctes.'
+  text = 'You do not have permission to access this site.'
   image = PageErreur
   return (
     <div className='page-body'>
       <div>
-        <img src={Ellipse1} alt='Ellipse1' className={styles.ellipseOne} />
+        <img
+          src={ImageDecorationEllipsePrimaire}
+          alt='ImageDecorationEllipsePrimaire'
+          className={styles.imageDecorationEllipsePrimaire}
+        />
       </div>
       <div className='container-page'>
         <div className='bloc-container'>
           <div>
-            <img src={Ellipse2} alt='Ellipse2' className={styles.ellipseTwo} />
+            <img
+              src={ImageDecorationEllipseSecondaire}
+              alt='ImageDecorationEllipseSecondaire'
+              className={styles.imageDecorationEllipseSecondaire}
+            />
           </div>
           <div className='text-center'>
             <img
