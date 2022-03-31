@@ -6,7 +6,6 @@ import 'page-http-code/dist/index.css'
 
 
 const App = () => {
-
     var text = ''
     var typePage = 401
     var img = ''
