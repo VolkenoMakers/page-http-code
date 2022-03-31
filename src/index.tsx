@@ -8,9 +8,10 @@ type Props = {
   text?: string
   image?: string
   typePage?: number
+  redirectLink?: string
 }
 
-export const HttpCodePage = ({ text, image, typePage }: Props) => {
+export const HttpCodePage = ({ text, image, typePage, redirectLink }: Props) => {
   if (typePage === 500) {
     return (
       <div className={styles.containerPage}>
@@ -35,7 +36,7 @@ export const HttpCodePage = ({ text, image, typePage }: Props) => {
   if (typePage === 404) {
     return (
       <div className={styles.containerPage}>
-        <Page404 text={text} image={image} />
+        <Page404 text={text} image={image} redirectLink={redirectLink} />
       </div>
     )
   }

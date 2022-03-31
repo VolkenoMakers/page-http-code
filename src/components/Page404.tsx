@@ -2,7 +2,7 @@ import React from 'react'
 import PageErreur from '404.png'
 
 import ImageDecorationPolygonPrimaire from 'polygon1.png'
-import ImageDecorationPolygonSecondaire from 'polygon2.png'
+// import ImageDecorationPolygonSecondaire from 'polygon2.png'
 import styles from '../../src/styles.module.css'
 // $(function() {
 //     $('a[href*=#]').on('click', function(e) {
@@ -13,9 +13,10 @@ import styles from '../../src/styles.module.css'
 type Props = {
   text?: string
   image?: string
+  redirectLink?: string
 }
 
-const Page404 = ({ text, image }: Props) => {
+const Page404 = ({ text, image, redirectLink }: Props) => {
   text = 'The requested URL was not found on this server.'
   image = PageErreur
   return (
@@ -29,13 +30,13 @@ const Page404 = ({ text, image }: Props) => {
       </div>
       <div className='container-page'>
         <div className='bloc-container'>
-          <div>
+          {/* <div>
             <img
               src={ImageDecorationPolygonSecondaire}
               alt='ImageDecorationPolygonSecondaire'
               className={styles.imageDecorationpolygonSecondaire}
             />
-          </div>
+          </div> */}
           <div className='text-center'>
             <img
               src={image || PageErreur}
@@ -45,7 +46,7 @@ const Page404 = ({ text, image }: Props) => {
           </div>
           <div className={styles.containerTextQuantreCentQuatre}>
             <p className={styles.textCodeErreurQuantreCentQuatre}> {text}</p>
-            <a href='#' className={styles.btnAccueil}>
+            <a href={redirectLink} className={styles.btnAccueil}>
               Home
             </a>
           </div>

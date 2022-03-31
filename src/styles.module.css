@@ -71,12 +71,14 @@
     position: absolute;
     left: 0;
     top: 0;
+
 }
 .imageDecorationpolygonSecondaire {
     position: absolute;
     right: 0;
     top: 0;
     opacity: .3;
+    height: 250px;
 }
 .textCodeErreurQuantreCentQuatre {
     font-family: 'Poppins';
@@ -218,6 +220,7 @@
     }
     .imageDecorationpolygonSecondaire {
         width: 50%;
+        height: 50px;
     }
     .containerTextQuantreCentQuatre {
         margin-top: 25% !important;
