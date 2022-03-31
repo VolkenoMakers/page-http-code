@@ -45,9 +45,9 @@ const Page404 = ({ text, image }: Props) => {
           </div>
           <div className={styles.containerTextQuantreCentQuatre}>
             <p className={styles.textCodeErreurQuantreCentQuatre}> {text}</p>
-            <button className={styles.btnAccueil} type='button'>
+            <a href='#' className={styles.btnAccueil}>
               Home
-            </button>
+            </a>
           </div>
         </div>
       </div>

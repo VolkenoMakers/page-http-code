@@ -58,7 +58,7 @@
 .imgPrincipalQuantreCentQuatre {
     position: absolute;
     left: 0;
-    bottom: 23%;
+    bottom: 8%;
 }
 .containerTextQuantreCentQuatre {
     float: right;
@@ -101,6 +101,7 @@
     float: right;
     border-color: #009688;
     border: #009688;
+    text-decoration: none;
 }
 .btnAccueil:hover {
     color: #009688;
@@ -109,7 +110,7 @@
 }
 .imageDecorationCerclePrimaire {
     position: absolute;
-    top: 18%;
+    top: 6%;
     left: 18%;
     opacity: .5;
 }
@@ -183,7 +184,7 @@
     .containerTextQuantreCentTrois {
         width: 50% !important;
         margin-left: 22% !important;
-        margin-top: 71% !important;
+        margin-top: 55% !important;
     }
     .textCodeErreurQuantreCentTrois {
         font-size: 22px !important;
@@ -207,9 +208,9 @@
         width: 70% !important;
     }
     .imgPrincipalQuantreCentQuatre {
-        width: 71% !important;
+        width: 62% !important;
         left: 3% !important;
-        bottom: 36% !important;
+        bottom: 24% !important;
     }
     .imageDecorationpolygonPrimaire {
         width: 80% !important;
@@ -240,8 +241,8 @@
         width: 15% !important;
     }
     .containerTextCinqCent {
-        width: 66% !important;
-        margin-top: 50% !important;
+        width: 100% !important;
+        margin-top: 54% !important;
     }
     .textCodeErreurCinqCent {
         font-size: 22px !important;
@@ -257,7 +258,7 @@
     .containerTextQuantreCentTrois {
         width: 45% !important;
         margin-left: 4% !important;
-        margin-top: 100% !important;
+        margin-top: 50% !important;
     }
     .textCodeErreurQuantreCentTrois {
         font-size: 30px !important;
@@ -304,7 +305,8 @@
         width: 15% !important;
     }
     .containerTextCinqCent {
-        width: 40% !important;
+        width: 98% !important;
+        margin-top: 52% !important;
     }
     .textCodeErreurCinqCent {
         font-size: 22px !important;
@@ -323,8 +325,8 @@
     }
     .containerTextQuantreCentTrois {
         width: 45% !important;
-        margin-left: -4% !important;
-        margin-top: 68% !important;
+        margin-left: -7% !important;
+        margin-top: 52% !important;
     }
     .textCodeErreurQuantreCentTrois {
         font-size: 30px !important;
@@ -341,7 +343,7 @@
     }
     .imgPrincipalQuantreCentQuatre {
         width: 57% !important;
-        bottom: 31% !important;
+        bottom: 14% !important;
     }
     .imageDecorationpolygonPrimaire {
         width: 70% !important;
@@ -349,7 +351,7 @@
     }
     .containerTextQuantreCentQuatre {
         width: 65% !important;
-        margin-top: 50% !important;
+        margin-top: 25% !important;
         padding-right: 0% !important;
     }
     .textCodeErreurQuantreCentQuatre {
@@ -386,8 +388,8 @@
     }
     .containerTextQuantreCentTrois {
         width: 40% !important;
-        margin-left: 1% !important;
-        margin-top: 54% !important;
+        margin-left: 6% !important;
+        margin-top: 41% !important;
     }
     .textCodeErreurQuantreCentTrois {
         font-size: 40px !important;
@@ -407,7 +409,7 @@
     }
     .imgPrincipalQuantreCentQuatre {
         width: 50% !important;
-        bottom: 34% !important;
+        bottom: 13% !important;
     }
     .imageDecorationpolygonPrimaire {
         width: 60% !important;
@@ -448,9 +450,12 @@
         width: 40% !important;
     }
     .containerTextQuantreCentTrois {
-        width: 40% !important;
-        margin-left: 0% !important;
-        margin-top: 29% !important;
+        width: 42% !important;
+        margin-left: 4% !important;
+        margin-top: 21% !important;
+    }
+    .textCodeErreurQuantreCentTrois {
+        font-size: 50px !important;
     }
     .imageDecorationEllipsePrimaire {
         width: 50% !important;
@@ -467,7 +472,7 @@
     }
     .imgPrincipalQuantreCentQuatre {
         width: 50% !important;
-        bottom: 30% !important;
+        bottom: 10% !important;
     }
     .textCodeErreurQuantreCentQuatre {
         font-size: 54px !important;
