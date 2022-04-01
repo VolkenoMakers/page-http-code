@@ -35,6 +35,18 @@ class Example extends Component {
   }
 }
 ```
+
+## Configuration - Props
+
+| Property                 |   Type   | Require  |  Default | Description                                                                              |
+| ------------------------ | :------: | :-----:  | :-------:| :------------------------------------------------------------------------------ |
+| alertState               | string   |  true    | sucess   | Toast alert state (success, danger, warning, info)                                       |
+| title                    | string   |  true    | ...      |  Toast alert title                                                                        |
+| text                     | string   |  true    | ...      |   Toast alert textual message                                                              |
+| duration                 | integer  |  false   | 5000     |   Toast alert duration time                                                                |
+| position                 | string   |  true    | center   |   Toast UI position on the page (center, bottom-right, bottom-left, top-left, top-right)   |
+
+
 ## License
 
 MIT © [adama199](https://github.com/adama199)
