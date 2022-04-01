@@ -40,11 +40,10 @@ class Example extends Component {
 
 | Property                 |   Type   | Require  |  Default | Description                                                                              |
 | ------------------------ | :------: | :-----:  | :-------:| :------------------------------------------------------------------------------ |
-| alertState               | string   |  true    | sucess   | Toast alert state (success, danger, warning, info)                                       |
-| title                    | string   |  true    | ...      |  Toast alert title                                                                        |
-| text                     | string   |  true    | ...      |   Toast alert textual message                                                              |
-| duration                 | integer  |  false   | 5000     |   Toast alert duration time                                                                |
-| position                 | string   |  true    | center   |   Toast UI position on the page (center, bottom-right, bottom-left, top-left, top-right)   |
+| typePage               | string   |  true    | sucess   | Page code  state (success, danger, warning, info)                                       |
+| image                    | string   |  true    | ...      |  Code error picture                                                                        |
+| text                     | string   |  true    | ...      |   Erreur textual message                                                              |
+| redirectLink                 | string  |  false   | ...     |   Link to return to home page                                                                |
 
 
 ## License
