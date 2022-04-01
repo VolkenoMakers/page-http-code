@@ -17,8 +17,8 @@ type Props = {
   image?: string
 }
 const Page401 = ({ text, image }: Props) => {
-  text = 'You do not have permission to access this site.'
-  image = PageErreur
+  text = text || 'You do not have permission to access this site.'
+  image = image || PageErreur
   return (
     <div className='page-body'>
       <div>

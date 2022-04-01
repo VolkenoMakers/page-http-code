@@ -17,8 +17,9 @@ type Props = {
 
 const Page500 = ({ text, image }: Props) => {
   text =
+    text ||
     'The server encountered an internal error or misconfiguration and could not complete your request.'
-  image = PageErreur
+  image = image || PageErreur
   return (
     <div>
       <div>

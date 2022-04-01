@@ -17,8 +17,8 @@ type Props = {
 }
 
 const Page404 = ({ text, image, redirectLink }: Props) => {
-  text = 'The requested URL was not found on this server.'
-  image = PageErreur
+  text = text || 'The requested URL was not found on this server.'
+  image = image || PageErreur
   return (
     <div>
       <div>

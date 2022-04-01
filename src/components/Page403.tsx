@@ -17,8 +17,9 @@ type Props = {
 
 const Page403 = ({ text, image }: Props) => {
   text =
+    text ||
     'Sorry, you do not have the appropriate permission to access the requested content.'
-  image = PageErreur
+  image = image || PageErreur
   return (
     <div>
       <div>
