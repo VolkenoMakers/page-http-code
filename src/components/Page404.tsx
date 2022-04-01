@@ -2,7 +2,7 @@ import React from 'react'
 import PageErreur from '404.png'
 
 import ImageDecorationPolygonPrimaire from 'polygon1.png'
-// import ImageDecorationPolygonSecondaire from 'polygon2.png'
+import ImageDecorationPolygonSecondaire from 'polygon2.png'
 import styles from '../../src/styles.module.css'
 // $(function() {
 //     $('a[href*=#]').on('click', function(e) {
@@ -30,13 +30,13 @@ const Page404 = ({ text, image, redirectLink }: Props) => {
       </div>
       <div className='container-page'>
         <div className='bloc-container'>
-          {/* <div>
+          <div>
             <img
               src={ImageDecorationPolygonSecondaire}
               alt='ImageDecorationPolygonSecondaire'
               className={styles.imageDecorationpolygonSecondaire}
             />
-          </div> */}
+          </div>
           <div className='text-center'>
             <img
               src={image || PageErreur}

@@ -129,7 +129,7 @@
 .containerTextQuantreCentTrois {
     width: 40%;
     margin-left: 2%;
-    margin-top: 30%;
+    margin-top: 20%;
     z-index: 99;
 }
 .textCodeErreurQuantreCentTrois {
@@ -181,15 +181,16 @@
     .imageDecorationCerclePrimaire {
         top: 3% !important;
         left: 18% !important;
-        width: 45% !important;
+        width: 30% !important;
     }
     .containerTextQuantreCentTrois {
-        width: 50% !important;
-        margin-left: 22% !important;
-        margin-top: 55% !important;
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-top: 38% !important;
     }
     .textCodeErreurQuantreCentTrois {
-        font-size: 22px !important;
+        font-size: 20px !important;
+        text-align: left !important;
     }
     .imageDecorationEllipsePrimaire {
         width: 60% !important;
@@ -216,7 +217,9 @@
     }
     .imageDecorationpolygonPrimaire {
         width: 80% !important;
-        height: 100%;
+        height: 65%;
+        top: inherit !important;
+        bottom: 0;
     }
     .imageDecorationpolygonSecondaire {
         width: 50%;
@@ -259,12 +262,13 @@
         width: 40% !important;
     }
     .containerTextQuantreCentTrois {
-        width: 45% !important;
-        margin-left: 4% !important;
+        width: 100% !important;
+        margin-left: inherit !important;
         margin-top: 50% !important;
     }
     .textCodeErreurQuantreCentTrois {
-        font-size: 30px !important;
+        font-size: 22px !important;
+        text-align: left !important;
     }
     .imageDecorationEllipsePrimaire {
         width: 50% !important;
@@ -317,22 +321,23 @@
 }
 @media (max-width: 991px) and (min-width: 768px) {
     .imageDecorationCercleSecondaire {
-        width: 50% !important;
+        width: 40% !important;
     }
     .imgPrincipalQuantreCentTrois {
-        width: 40% !important;
+        width: 30% !important;
     }
     .imageDecorationCerclePrimaire {
         top: 8% !important;
         left: 14% !important;
     }
     .containerTextQuantreCentTrois {
-        width: 45% !important;
-        margin-left: -7% !important;
-        margin-top: 52% !important;
+        width: 100% !important;
+        margin-left: inherit !important;
+        margin-top: 44% !important;
     }
     .textCodeErreurQuantreCentTrois {
         font-size: 30px !important;
+        text-align: left !important;
     }
     .imageDecorationEllipsePrimaire {
         width: 50% !important;
@@ -350,7 +355,12 @@
     }
     .imageDecorationpolygonPrimaire {
         width: 70% !important;
-        height: 100%;
+        height: 75%;
+        top: inherit !important;
+        bottom: 0;
+    }
+    .imageDecorationpolygonSecondaire {
+        height: 15% !important;
     }
     .containerTextQuantreCentQuatre {
         width: 65% !important;
@@ -390,12 +400,13 @@
         width: 35% !important;
     }
     .containerTextQuantreCentTrois {
-        width: 40% !important;
+        width: 51% !important;
         margin-left: 6% !important;
-        margin-top: 41% !important;
+        margin-top: 28% !important;
     }
     .textCodeErreurQuantreCentTrois {
         font-size: 40px !important;
+        text-align: left !important;
     }
     .textCodeErreur {
         font-size: 34px !important;
