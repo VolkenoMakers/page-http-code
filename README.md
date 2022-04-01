@@ -40,7 +40,7 @@ class Example extends Component {
 
 | Property                 |   Type   | Require  |  Default | Description                                                                              |
 | ------------------------ | :------: | :-----:  | :-------:| :------------------------------------------------------------------------------ |
-| typePage               | string   |  true    | sucess   | Page code  state (success, danger, warning, info)                                       |
+| typePage               | string   |  true    | 404   | Page code  state (404, 401, 403, 500)                                       |
 | image                    | string   |  true    | ...      |  Code error picture                                                                        |
 | text                     | string   |  true    | ...      |   Erreur textual message                                                              |
 | redirectLink                 | string  |  false   | ...     |   Link to return to home page                                                                |
