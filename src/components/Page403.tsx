@@ -1,7 +1,5 @@
 import React from 'react'
 import PageErreur from '403.png'
-import ImageDecorationCercleSecondaire from 'cercle1.png'
-import ImageDecorationCerclePrimaire from 'cercle2.png'
 import styles from '../../src/styles.module.css'
 // $(function() {
 //     $('a[href*=#]').on('click', function(e) {

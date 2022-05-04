@@ -1,8 +1,5 @@
 import React from 'react'
 import PageErreur from '404.png'
-
-import ImageDecorationPolygonPrimaire from 'polygon1.png'
-import ImageDecorationPolygonSecondaire from 'polygon2.png'
 import styles from '../../src/styles.module.css'
 // $(function() {
 //     $('a[href*=#]').on('click', function(e) {
