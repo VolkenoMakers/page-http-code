@@ -23,7 +23,7 @@ const Page401 = ({ text, image }: Props) => {
     <div className='page-body'>
       <div>
         <img
-          src={ImageDecorationEllipsePrimaire}
+          src='https://github.com/VolkenoMakers/page-http-code/blob/files/src/components/ellipse1.png?raw=true'
           alt='ImageDecorationEllipsePrimaire'
           className={styles.imageDecorationEllipsePrimaire}
         />
@@ -32,7 +32,7 @@ const Page401 = ({ text, image }: Props) => {
         <div className='bloc-container'>
           <div>
             <img
-              src={ImageDecorationEllipseSecondaire}
+              src='https://github.com/VolkenoMakers/page-http-code/blob/files/src/components/ellipse2.png?raw=true'
               alt='ImageDecorationEllipseSecondaire'
               className={styles.imageDecorationEllipseSecondaire}
             />

@@ -23,7 +23,7 @@ const Page404 = ({ text, image, redirectLink }: Props) => {
     <div>
       <div>
         <img
-          src={ImageDecorationPolygonPrimaire}
+          src='https://github.com/VolkenoMakers/page-http-code/blob/files/src/components/polygon1.png?raw=true'
           alt='ImageDecorationPolygonPrimaire'
           className={styles.imageDecorationpolygonPrimaire}
         />
@@ -32,7 +32,7 @@ const Page404 = ({ text, image, redirectLink }: Props) => {
         <div className='bloc-container'>
           <div>
             <img
-              src={ImageDecorationPolygonSecondaire}
+              src='https://github.com/VolkenoMakers/page-http-code/blob/files/src/components/polygon2.png?raw=true'
               alt='ImageDecorationPolygonSecondaire'
               className={styles.imageDecorationpolygonSecondaire}
             />

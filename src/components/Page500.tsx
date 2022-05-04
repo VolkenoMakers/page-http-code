@@ -24,7 +24,7 @@ const Page500 = ({ text, image }: Props) => {
     <div>
       <div>
         <img
-          src={ImageDecorationSubtractSecondaire}
+          src='https://github.com/VolkenoMakers/page-http-code/blob/files/src/components/subtract2.png?raw=true'
           alt='ImageDecorationSubtractSecondaire'
           className={styles.imageDecorationSubtractSecondaire}
         />
@@ -33,7 +33,7 @@ const Page500 = ({ text, image }: Props) => {
         <div className='bloc-container'>
           <div>
             <img
-              src={ImageDecorationSubtractPrimaire}
+              src='https://github.com/VolkenoMakers/page-http-code/blob/files/src/components/subtract1.png?raw=true'
               alt='ImageDecorationSubtractPrimaire'
               className={styles.imageDecorationSubtractPrimaire}
             />
