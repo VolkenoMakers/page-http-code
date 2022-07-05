@@ -7,7 +7,7 @@ import Page500 from './components/Page500'
 type Props = {
   text?: string
   image?: string
-  typePage?: number
+  typePage: 404 | 500 | 401 | 403
   redirectLink?: string
 }
 

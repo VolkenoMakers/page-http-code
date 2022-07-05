@@ -20,7 +20,7 @@ First step: import the component with the css file:
 ```tsx
 import React, { Component } from 'react'
 
-import HttpCodePage from 'page-http-code'
+import { HttpCodePage } from 'page-http-code'
 import 'page-http-code/dist/index.css'
 
 ```
@@ -31,7 +31,7 @@ Second step: Use the component to get the error page
 
 class Example extends Component {
   render() {
-    return <HttpCodePage text="The requested URL was not found on this server." image="My picture" typePage="404" redirectLink="/accueil" />
+    return <HttpCodePage text="The requested URL was not found on this server." image="My picture" typePage={404} redirectLink="/accueil" />
   }
 }
 ```
@@ -40,7 +40,7 @@ class Example extends Component {
 
 | Property                 |   Type   | Require  |  Default | Description                                                                              |
 | ------------------------ | :------: | :-----:  | :-------:| :------------------------------------------------------------------------------ |
-| typePage               | string   |  true    | 404   | Page code error (404, 401, 403, 500)                                       |
+| typePage               | number   |  true    | 404   | Page code error (404, 401, 403, 500)                                       |
 | image                    | string   |  true    | ...      |  Code error picture                                                                        |
 | text                     | string   |  true    | ...      |   Erreur textual message                                                              |
 | redirectLink                 | string  |  false   | ...     |   Link to return to home page                                                                |
