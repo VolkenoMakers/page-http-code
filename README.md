@@ -52,16 +52,16 @@ class Example extends Component {
 
 ## Default Pages Screenchot
 ### Page 404 screenshot
-[Page 404 screenshot](https://nsm09.casimages.com/img/2022/07/05//22070505511625804917943706.png)
+![Page 404 screenshot](https://nsm09.casimages.com/img/2022/07/05//22070505511625804917943706.png)
 
 ### Page 401 screenshot
-[Page 401 screenshot](https://nsm09.casimages.com/img/2022/07/05//22070505543125804917943710.png)
+![Page 401 screenshot](https://nsm09.casimages.com/img/2022/07/05//22070505543125804917943710.png)
 
 ### Page 403 screenshot
-[Page 403 screenshot](https://nsm09.casimages.com/img/2022/07/05//22070505573525804917943712.png)
+![Page 403 screenshot](https://nsm09.casimages.com/img/2022/07/05//22070505573525804917943712.png)
 
 ### Page 500 screenshot
-[Page 500 screenshot](https://nsm09.casimages.com/img/2022/07/05//22070505560925804917943711.png)
+![Page 500 screenshot](https://nsm09.casimages.com/img/2022/07/05//22070505560925804917943711.png)
 
 
 ## License
