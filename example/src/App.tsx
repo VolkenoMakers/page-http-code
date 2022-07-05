@@ -9,7 +9,7 @@ const App = () => {
     var text = ''
     var img = ''
     var redirectLink = 'https://volkeno.sn'
-  return <HttpCodePage text={text} image={img} typePage={404} redirectLink={redirectLink} />
+  return <HttpCodePage text={text} image={img} typePage={403} redirectLink={redirectLink} />
 }
 
 export default App

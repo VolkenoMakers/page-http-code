@@ -31,7 +31,12 @@ Second step: Use the component to get the error page
 
 class Example extends Component {
   render() {
-    return <HttpCodePage text="The requested URL was not found on this server." image="My picture" typePage={404} redirectLink="/accueil" />
+    return <HttpCodePage
+              text="The requested URL was not found on this server."
+              image="My_Image_Path or My_Image_URL"
+              typePage={404}
+              redirectLink="/accueil"
+            />
   }
 }
 ```
@@ -44,6 +49,19 @@ class Example extends Component {
 | image                    | string   |  true    | ...      |  Code error picture                                                                        |
 | text                     | string   |  true    | ...      |   Erreur textual message                                                              |
 | redirectLink                 | string  |  false   | ...     |   Link to return to home page                                                                |
+
+## Default Pages Screenchot
+### Page 404 screenshot
+[Page 404 screenshot](https://nsm09.casimages.com/img/2022/07/05//22070505511625804917943706.png)
+
+### Page 401 screenshot
+[Page 401 screenshot](https://nsm09.casimages.com/img/2022/07/05//22070505543125804917943710.png)
+
+### Page 403 screenshot
+[Page 403 screenshot](https://nsm09.casimages.com/img/2022/07/05//22070505573525804917943712.png)
+
+### Page 500 screenshot
+[Page 500 screenshot](https://nsm09.casimages.com/img/2022/07/05//22070505560925804917943711.png)
 
 
 ## License
