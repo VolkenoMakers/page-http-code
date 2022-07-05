@@ -1,6 +1,6 @@
 {
   "name": "page-http-code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Volkeno Page HTTP CODE gives you the possibility to integrate the error pages following the error code in a few clicks, while facilitating the modification of the error message as well as the image with the structure, in your React JS projects",
   "author": "volkeno-makers",
   "license": "MIT",

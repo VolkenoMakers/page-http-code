@@ -1,8 +1,6 @@
 import React from 'react'
 import './Page.css'
 import PageErreur from '401.png'
-import ImageDecorationEllipsePrimaire from 'ellipse1.png'
-import ImageDecorationEllipseSecondaire from 'ellipse2.png'
 import styles from '../../src/styles.module.css'
 
 // $(function() {
