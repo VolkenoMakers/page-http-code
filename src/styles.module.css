@@ -104,6 +104,7 @@
     border-color: #009688;
     border: #009688;
     text-decoration: none;
+    cursor: pointer;
 }
 .btnAccueil:hover {
     color: #009688;
